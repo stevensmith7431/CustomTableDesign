@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        tools:context=".LeaveReport.LeaReportListview">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbarSize="3dp"
+                android:scrollbarStyle="outsideInset">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp">
+
+                    <ListView
+                        android:id="@+id/listviewhdr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/gridred"
+                        android:divider="#ff8dc01d"
+                        android:dividerHeight="2dp"
+                        android:scrollbars="none" />
+
+                    <ListView
+                        android:id="@+id/listitemsid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/listviewhdr"
+                        android:background="@drawable/gridred"
+                        android:divider="#ff8dc01d"
+                        android:dividerHeight="2dp"
+                        android:listSelector="#bdde76"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/saveid"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#3F51B5"
+                android:text="Save"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/currentdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

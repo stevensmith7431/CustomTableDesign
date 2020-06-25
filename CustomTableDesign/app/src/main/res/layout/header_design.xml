@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.2"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Empno"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.08"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Name"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Team"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:text="Dept"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="designation"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Unit"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="Leave Date"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:text="Session"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:text="Purpose"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.1"
+        android:ems="30"
+        android:text="Remarks"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#ff8dc01d" />
+
+</LinearLayout>
+
+
